@@ -1,0 +1,22 @@
+{
+  "name": "auctionnodeapp",
+  "version": "1.0.0",
+  "description": "auction application using the adhichain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "madeshv5543",
+  "license": "ISC",
+  "dependencies": {
+    "adhi-contract": "0.0.1",
+    "body-parser": "^1.18.3",
+    "config": "^3.0.1",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.2",
+    "redis": "^2.8.0",
+    "web3-adhi": "^0.19.2"
+  }
+}

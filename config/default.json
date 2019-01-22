@@ -1,0 +1,12 @@
+{
+  "port" : 8080,
+  "mongoDb" : "mongodb://localhost:27017/adiauction",
+  "adhiNet" : "https://adhinet.com/",
+  "redisClient" : "redis://localhost:6379",
+  "cors": {
+    "origin": "*",
+    "domain": "localhost",
+    "credentials": true,
+    "methods": ["GET", "POST"]
+  }
+}
